@@ -3,21 +3,21 @@ import os
 
 class Config:
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    BOT_TOKEN = 5137083191:AAGjLLIFdsGCcgYmXBzkJuBBHy0X9UDvUSg
 
-    SESSION_NAME = os.environ.get("SESSION_NAME", ":memory:")
+    SESSION_NAME = 1
 
-    API_ID = int(os.environ.get("API_ID"))
+    API_ID = 9314947
 
-    API_HASH = os.environ.get("API_HASH")
+    API_HASH = 0b5efbc3295a6e8941abaed9760afb7c
 
-    CLIENT_ID = os.environ.get("CLIENT_ID")
+    CLIENT_ID = 351121494353-o8ckvdia7ss2n6cnteeg39m3l4v75jpu.apps.googleusercontent.com
 
-    CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
+    CLIENT_SECRET = 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
 
-    BOT_OWNER = int(os.environ.get("BOT_OWNER"))
+    BOT_OWNER = 5021325274
 
-    AUTH_USERS_TEXT = os.environ.get("AUTH_USERS", "")
+    AUTH_USERS_TEXT = 5021325274
 
     AUTH_USERS = [BOT_OWNER, 374321319] + (
         [int(user.strip()) for user in AUTH_USERS_TEXT.split(",")]
